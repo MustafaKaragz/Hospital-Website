@@ -1,0 +1,63 @@
+.grid-container1 {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    background-color: white;
+    height: 30%;
+    grid-gap: 50px;
+    float: right;
+    margin-bottom: 250px;
+    margin-right: 90px;
+    margin-top: 200px;
+}
+
+.grid-item1 {
+    background-color: #760000;
+    border: none;
+    height: 50px;
+    width: 250px;
+    padding: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+    .grid-item1:hover {
+        background-color: #55ff00;
+    }
+
+.icon1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+
+.loading1 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+            
+    }
+}

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<HospitalMS.Models.Prescription>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Index</h3>
+<h3>Index</h3>
+<h3>Index</h3>
+<h3>Index</h3>
+<h3>Index</h3>
+<br>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PrescriptionDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dosage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FrequencyOfUse)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PatientsName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Medicine)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DoktorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AdditionalMessage)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrescriptionDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dosage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FrequencyOfUse)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PatientsName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Medicine)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DoktorName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AdditionalMessage)
+        </td>
+        
+        
+    </tr>
+}
+
+</table>

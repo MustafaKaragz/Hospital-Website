@@ -1,0 +1,78 @@
+﻿@model HospitalMS.Models.Prescription
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+<h2>Details</h2>
+
+<div>
+    <h4>Prescription</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PrescriptionDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrescriptionDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dosage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dosage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FrequencyOfUse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FrequencyOfUse)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PatientsName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PatientsName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Medicine)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Medicine)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoktorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoktorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdditionalMessage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdditionalMessage)
+        </dd>
+
+        
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

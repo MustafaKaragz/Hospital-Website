@@ -1,0 +1,155 @@
+﻿
+@{
+    bool isLoggedIn = true;
+    if (string.IsNullOrWhiteSpace(User.Identity.Name))
+    {
+        isLoggedIn = false;
+    }
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifespring Hospital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="~/Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Css/mainpagecss.css">
+    <link rel="stylesheet" href="~/Css/aboutuscss.css">
+    <link rel="stylesheet" href="~/Css/contactuscss.css">
+    <link rel="stylesheet" href="~/Css/login.css">
+    <link rel="stylesheet" href="~/Css/girissayfa.css">
+    <link rel="stylesheet" href="~/Css/okresim.css">
+    <link href="~/Css/doctors.css" rel="stylesheet" />
+    <link href="~/Css/gallery.css" rel="stylesheet" />
+    <link href="~/Css/medicalunit.css" rel="stylesheet" />
+    <link href="~/Css/appointment.css" rel="stylesheet" />
+    <link href="~/Css/login-p.css" rel="stylesheet" />
+    <link href="~/Css/register.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="~/Scripts/jquery-3.4.1.slim.min.js" defer></script>
+    <script src="~/Scripts/bootstrap.min.js" defer></script>
+    <script src="~/Scripts/jquery-3.4.1.js" defer></script>
+    <script src="~/Scripts/jquery-3.4.1.slim.js" defer></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js" defer></script>
+    <script src="~/Scripts/bootstrap.js" defer></script>
+    <script src="~/Scripts/jquery.validate.js" defer></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js" defer></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js" defer></script>
+    <script src="~/Scripts/modernizr-2.8.3.js" defer></script>
+    <script src="~/Scripts/girissayfa.js" defer></script>
+    <script src="/Scripts/SideBar.js" defer></script>
+    <script src="~/Scripts/okresim.js" defer></script>
+    <script src="~/Scripts/appointment.js" defer></script>
+    <script src="~/Scripts/main.js" defer></script>
+    <script src="~/Scripts/doctors.js" defer></script>
+    <script src="~/Scripts/aboutus.js" defer></script>
+</head>
+
+<body>
+
+
+
+    <div id="sidebar">
+        <ul>
+            <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li><a href="@Url.Action("Doctors1", "Home")">Doctors</a></li>
+            <li><a href="https://github.com/MustafaKaragz" target="_blank">Protection of Personal Data</a></li>
+            <li><a href="@Url.Action("Gallery1", "Home")">Gallery</a></li>
+        </ul>
+    </div>
+
+    <div id="main-content">
+
+        <header>
+            <button onclick="toggleSidebar()"><i class="fa-regular fa-hospital fa-xl"></i></button>
+
+            <a href="@Url.Action("Index", "Home")">
+                <img src="~/images/logo.png" alt="Hospital Logo" class="logo">
+            </a>
+
+
+            <h1>Lifespring Hospital</h1>
+            <div id="headlines">
+                <nav>
+                    <ul>
+
+
+                        <li>
+                            <a href="@Url.Action("MedicalUnits1", "Home")">Medical Units</a>
+
+                        </li>
+
+                        <li>
+                            <a href="#">Online Services</a>
+                            <ul>
+                                <li><a href="@Url.Action("Login", "Accounts")" target="_blank">Login</a></li>
+                                <li><a href="@Url.Action("MakeAppointment", "Appointments")">Online Appointment</a></li>
+                                <li><a href="#">Online Result</a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="@Url.Action("AboutUs", "Home")">About Us <i class="fa-solid fa-user-doctor"></i></a>
+
+                        </li>
+                        <li>
+                            <a href="@Url.Action("ContactUs", "Home")">Contact Us  <i class="fa-solid fa-phone"></i></a>
+                        </li>
+
+                        @{
+                            if (isLoggedIn)
+                            {
+
+
+                                <li>@Html.ActionLink(User.Identity.Name, "Index", "Home")</li>
+                                <li>@Html.ActionLink("Log out", "Logout", "Accounts")</li>
+
+                            }
+
+                            else
+                            {
+                                <li>@Html.ActionLink("Sign Up", "Signup", "Accounts") </li>
+
+                            }
+
+                        }
+                    </ul>
+                </nav>
+            </div>
+
+
+        </header>
+
+
+    </div>
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+    <footer>
+        <h2>Contact Us</h2>
+        <address>
+            <br>
+            MUSTAFA KARAGÖZ<br> <br>
+            COMPUTER ENGINEERING <br> <br>
+            https://github.com/MustafaKaragz <br> <br>
+            Lifespring Hospital
+        </address>
+    </footer>
+
+   
+</body>
+</html>

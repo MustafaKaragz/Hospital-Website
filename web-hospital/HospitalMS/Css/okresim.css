@@ -1,0 +1,40 @@
+.carousel1 {
+    position: relative;
+    width: 600px;
+    height: 40px;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 500px;
+}
+
+    .carousel1 img {
+        width: 100%;
+        height: 400px;
+        display: block;
+        opacity: 0;
+        position: absolute;
+        transition: opacity 2s ease-in-out;
+        padding-top: 100px;
+    }
+
+        .carousel1 img.active1 {
+            display: block;
+            opacity: 1;
+        }
+
+    .carousel1 .prev1, .carousel1 .next1 {
+        position: absolute;
+        top: 600%;
+        cursor: pointer;
+        transform: translateY(-50%);
+        padding-top: 100px;
+    }
+
+    .carousel1 .prev1 {
+        left: -40px;
+    }
+
+    .carousel1 .next1 {
+        right: -40px;
+       
+    }

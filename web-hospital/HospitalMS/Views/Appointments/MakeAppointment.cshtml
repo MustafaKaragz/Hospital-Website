@@ -1,0 +1,72 @@
+﻿@{ ViewBag.Title = "MakeAppointment";
+                Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+
+<div class="main-containerapointment">
+
+    <div class="calendar-container">
+        <div class="month-indicator">
+            <button id="prevMonth">❮</button>
+            <h1 id="monthYear"></h1>
+            <button id="nextMonth">❯</button>
+        </div>
+        <table id="calendar">
+            <thead>
+                <tr>
+                    <th>MON</th>
+                    <th>SAT</th>
+                    <th>WED</th>
+                    <th>THU</th>
+                    <th>FRI</th>
+                    <th>SAT</th>
+                    <th>SUN</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form-container">
+        <form id="appointmentForm">
+            <select id="department" required>
+                <option value=""> Select Department</option>
+                <option value="neurology">Neurology</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="dermatology">Dermatology</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="hematology">Hematology</option>
+                <option value="urology">Urology</option>
+            </select>
+            <select id="doctor" required>
+                <option value="">Select Doctor</option>
+                <option value="mustafa">Mustafa Sener</option>
+                <option value="neslihan">Neslihan Senocak</option>
+                <option value="naci">Naci İbrahim</option>
+                <option value="melih">Melih Kasımoglu</option>
+                <option value="hakan">Hakan Gundogan</option>
+                <option value="guncel">Guncel Ozturk</option>
+                <option value="arzu">Arzu Keskin</option>
+                <option value="david">David Ruacan</option>
+                <option value="alev">Alev Kilic</option>
+                <option value="munev">Munevver Gulluoglu</option>
+                <option value="okan">Okan Bas</option>
+                <option value="melek">Melek Kabak</option>
+                <option value="dogus">Dogus Kiran</option>
+                <option value="huseyin">Huseyin Dal</option>
+                <option value="ibrahim">Ibrahim Usta</option>
+            </select>
+            <input type="text" id="firstName" placeholder="Name" required>
+            <input type="text" id="lastName" placeholder="Surname" required>
+            <input type="email" id="email" placeholder="E-Mail" required>
+            <textarea id="message" placeholder="Message"></textarea>
+            <button type="submit">Request an Appointment</button>
+        </form>
+    </div>
+
+    <p id="selectedDate"></p>
+
+</div>
+
+

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HospitalDBContextModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Appointments">
+    <Key>
+      <PropertyRef Name="AppointmentID" />
+    </Key>
+    <Property Name="AppointmentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DoctorID" Type="int" Nullable="false" />
+    <Property Name="PatientID" Type="int" Nullable="false" />
+    <Property Name="MedicalUnitID" Type="int" Nullable="false" />
+    <Property Name="AppointmentDate" Type="datetime" Nullable="false" />
+    <Property Name="AppointmentTime" Type="time" Precision="7" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Message" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Doctors">
+    <Key>
+      <PropertyRef Name="DoctorID" />
+    </Key>
+    <Property Name="DoctorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Specialization" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="Password" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MedicalUnits">
+    <Key>
+      <PropertyRef Name="MedicalUnitID" />
+    </Key>
+    <Property Name="MedicalUnitID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MedicalUnitName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Patients">
+    <Key>
+      <PropertyRef Name="PatientID" />
+    </Key>
+    <Property Name="PatientID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="DateOfBirth" Type="date" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Gender" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ssn" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="IsEmailVerified1" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Prescription">
+    <Key>
+      <PropertyRef Name="PrescriptionID" />
+    </Key>
+    <Property Name="PrescriptionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PatientsName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PrescriptionDate" Type="datetime" Nullable="false" />
+    <Property Name="Medicine" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Dosage" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FrequencyOfUse" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DoktorName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdditionalMessage" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Appointme__Docto__70DDC3D8">
+    <End Role="Doctors" Type="Self.Doctors" Multiplicity="1" />
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctors">
+        <PropertyRef Name="DoctorID" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="DoctorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Appointme__Medic__71D1E811">
+    <End Role="MedicalUnits" Type="Self.MedicalUnits" Multiplicity="1" />
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MedicalUnits">
+        <PropertyRef Name="MedicalUnitID" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="MedicalUnitID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Appointme__Patie__5FB337D6">
+    <End Role="Patients" Type="Self.Patients" Multiplicity="1" />
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patients">
+        <PropertyRef Name="PatientID" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="PatientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HospitalDBContextModelStoreContainer">
+    <EntitySet Name="Appointments" EntityType="Self.Appointments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Doctors" EntityType="Self.Doctors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MedicalUnits" EntityType="Self.MedicalUnits" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Patients" EntityType="Self.Patients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Prescription" EntityType="Self.Prescription" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Appointme__Docto__70DDC3D8" Association="Self.FK__Appointme__Docto__70DDC3D8">
+      <End Role="Doctors" EntitySet="Doctors" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Appointme__Medic__71D1E811" Association="Self.FK__Appointme__Medic__71D1E811">
+      <End Role="MedicalUnits" EntitySet="MedicalUnits" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Appointme__Patie__5FB337D6" Association="Self.FK__Appointme__Patie__5FB337D6">
+      <End Role="Patients" EntitySet="Patients" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

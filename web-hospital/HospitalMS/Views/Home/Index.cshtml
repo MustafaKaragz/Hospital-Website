@@ -1,0 +1,114 @@
+﻿@{ ViewBag.Title = "Index";
+                Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<section id="home">
+    <img src="~/images/mainfoto.jpg" alt="Home Image">
+
+</section>
+
+
+
+
+
+<div class="carousel1">
+    <img src="~/images/carosel1.jpg" class="active1">
+    <img src="~/images/carosel2.jpg">
+    <img src="~/images/carosel3.jpg">
+    <div class="next1"><i class="fa-solid fa-arrow-right fa-2xl" style="color: rgb(0, 0, 0);"></i></div>
+    <div class="prev1"><i class="fa-solid fa-arrow-left fa-2xl" style="color: rgb(0, 0, 0);"></i></div>
+</div>
+
+
+
+<div class="grid-container1">
+    <div class="grid-item1" onclick="redirectToLogin1();">
+        <div class="icon1"><i class="fa-solid fa-user-doctor" style="color: #ffffff;"></i></div>
+        Doktor
+    </div>
+    <div class="grid-item1" onclick="redirectToLogin();">
+        <div class="icon1">&#128657;</div>
+        HASTA
+    </div>
+</div>
+
+
+<section id="services1">
+    <div class="icon-container1">
+        <img src="~/images/hearticon.png" alt="General Healthcare" class="hospital-icon1">
+        <img src="~/images/pillicon.png" alt="Pharmacy" class="hospital-icon1">
+        <img src="~/images/plastericon.png" alt="Cardiology" class="hospital-icon1">
+        <img src="~/images/stethoscopeicon.png" alt="First Aid" class="hospital-icon1">
+    </div>
+
+    <div class="cards-container1">
+        <div class="card1">
+            <img src="~/images/card1.jpg" alt="Healthcare Professionals" class="card-image1">
+            <div class="card-content1">
+                <h3><b>Your Health is Our Priority</b></h3>
+                <p class="summary1"><i><br>Our Only Priority is You</i></p>
+                <p class="full-message1">
+                    We, Lifespring Hospital, take pride in providing you with high-quality and reliable
+                    healthcare services. With our experienced team of doctors and state-of-the-art medical
+                    equipment, we are here to
+                    deliver the best possible treatment to our patients.<br> <br>
+                </p>
+                <button class="detail-button1">More Information</button>
+            </div>
+        </div>
+        <div class="card1">
+            <img src="~/images/card2.jpg" alt="Healthcare Professionals" class="card-image1">
+            <div class="card-content1">
+                <h3><b>Our Doctors</b></h3>
+                <p class="summary1"><i><br> All of our doctors are experts in their field. <br> <br> </i></p>
+                <p class="full-message1">
+                    Our expert doctors, specializing in their respective fields, serve in
+                    our hospital with constantly updated knowledge and skills. Our top-notch doctors, focusing
+                    on your health, create personalized treatment plans for each patient, offering the most
+                    effective solutions to health issues.<br> <br> 
+                </p>
+                <button class="detail-button1">More Information</button>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="~/images/card3.jpg" alt="Healthcare Professionals" class="card-image1">
+            <div class="card-content1">
+                <h3><b>Our Services</b></h3>
+                <p class="summary1"><i> <br> Our best services for you <br> <br></i></p>
+                <p class="full-message1">
+                    General Health Check-ups<br> Emergency Services <br>Surgical Interventions
+                    <br> Cardiology and Heart Health <br> Orthopedics <br> Neurology
+                    <br>Dermatology <br>Urology <br>Hematology <br>Pediatrics <br> <br>
+                </p>
+                <button class="detail-button1">More Information</button>
+            </div>
+        </div>
+
+
+        <div class="card1">
+            <img src="~/images/card4.jpg" alt="Healthcare Professionals" class="card-image1">
+            <div class="card-content1">
+                <h3><b>Why Choose Us?</b></h3>
+                <p class="summary1"><i> <br> Patient And Respect Are The Priority.</i></p>
+                <p class="full-message1">
+                    We not only provide medical services to our patients but also make the treatment process more meaningful by emphasizing respect, transparency, and patient satisfaction.
+                    If you are looking for reliable and effective solutions for your health, Lifespring Hospital is here for you.
+                </p>
+                <button class="detail-button1">More Information</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    function redirectToLogin() {
+        window.location.href = '@Url.Action("Login", "Accounts")';
+    }
+</script>
+
+<script>
+    function redirectToLogin1() {
+        window.location.href = '@Url.Action("DoctorLogin", "Doctors")';
+    }
+</script>

@@ -1,0 +1,90 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+  
+.main-containerapointment {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.calendar-container, .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-left: 190px;
+    margin-top: 150px;
+}
+
+.month-indicator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #ff4b4b;
+    color: white;
+}
+
+.selected-date {
+    background-color: #f1f1f1;
+    color: white;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.bg-selected {
+    background-color: #ff4b4b;
+    color: white;
+}
+
+
+
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-right: 150px;
+    margin-top: 150px;
+}
+
+    .form-container form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container input, .form-container select, .form-container textarea, .form-container button {
+        padding: 15px;
+        margin: 15px 0;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        width: calc(100% - 30px);
+    }
+
+
+    .form-container button {
+        background-color: #ff4b4b;
+        color: white;
+        cursor: pointer;
+    }

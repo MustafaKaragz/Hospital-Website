@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HospitalDBContextModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HospitalDBContextEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Patients" EntityType="HospitalDBContextModel.Patients" />
+    <EntitySet Name="Appointments1" EntityType="HospitalDBContextModel.Appointments" />
+    <EntitySet Name="Doctors1" EntityType="HospitalDBContextModel.Doctors" />
+    <EntitySet Name="MedicalUnits1" EntityType="HospitalDBContextModel.MedicalUnits" />
+    <AssociationSet Name="FK__Appointme__Docto__4F7CD00D" Association="HospitalDBContextModel.FK__Appointme__Docto__4F7CD00D">
+      <End Role="Doctors" EntitySet="Doctors1" />
+      <End Role="Appointments" EntitySet="Appointments1" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Appointme__Medic__5165187F" Association="HospitalDBContextModel.FK__Appointme__Medic__5165187F">
+      <End Role="MedicalUnits" EntitySet="MedicalUnits1" />
+      <End Role="Appointments" EntitySet="Appointments1" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Appointme__Patie__5070F446" Association="HospitalDBContextModel.FK__Appointme__Patie__5070F446">
+      <End Role="Patients" EntitySet="Patients" />
+      <End Role="Appointments" EntitySet="Appointments1" />
+    </AssociationSet>
+    <EntitySet Name="Prescriptions" EntityType="HospitalDBContextModel.Prescription" />
+  </EntityContainer>
+  <EntityType Name="Patients">
+    <Key>
+      <PropertyRef Name="PatientID" />
+    </Key>
+    <Property Name="PatientID" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Precision="0" />
+    <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ssn" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsEmailVerified1" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Appointments" Relationship="HospitalDBContextModel.FK__Appointme__Patie__5070F446" FromRole="Patients" ToRole="Appointments" />
+  </EntityType>
+  <EntityType Name="Appointments">
+    <Key>
+      <PropertyRef Name="AppointmentID" />
+    </Key>
+    <Property Name="AppointmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DoctorID" Type="Int32" Nullable="false" />
+    <Property Name="PatientID" Type="Int32" Nullable="false" />
+    <Property Name="MedicalUnitID" Type="Int32" Nullable="false" />
+    <Property Name="AppointmentDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AppointmentTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="Status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Message" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Doctor" Relationship="HospitalDBContextModel.FK__Appointme__Docto__4F7CD00D" FromRole="Appointments" ToRole="Doctors" />
+    <NavigationProperty Name="MedicalUnit" Relationship="HospitalDBContextModel.FK__Appointme__Medic__5165187F" FromRole="Appointments" ToRole="MedicalUnits" />
+    <NavigationProperty Name="Patient" Relationship="HospitalDBContextModel.FK__Appointme__Patie__5070F446" FromRole="Appointments" ToRole="Patients" />
+  </EntityType>
+  <EntityType Name="Doctors">
+    <Key>
+      <PropertyRef Name="DoctorID" />
+    </Key>
+    <Property Name="DoctorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Specialization" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Appointments" Relationship="HospitalDBContextModel.FK__Appointme__Docto__4F7CD00D" FromRole="Doctors" ToRole="Appointments" />
+  </EntityType>
+  <EntityType Name="MedicalUnits">
+    <Key>
+      <PropertyRef Name="MedicalUnitID" />
+    </Key>
+    <Property Name="MedicalUnitID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MedicalUnitName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Appointments" Relationship="HospitalDBContextModel.FK__Appointme__Medic__5165187F" FromRole="MedicalUnits" ToRole="Appointments" />
+  </EntityType>
+  <Association Name="FK__Appointme__Docto__4F7CD00D">
+    <End Type="HospitalDBContextModel.Doctors" Role="Doctors" Multiplicity="1" />
+    <End Type="HospitalDBContextModel.Appointments" Role="Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctors">
+        <PropertyRef Name="DoctorID" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="DoctorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Appointme__Medic__5165187F">
+    <End Type="HospitalDBContextModel.MedicalUnits" Role="MedicalUnits" Multiplicity="1" />
+    <End Type="HospitalDBContextModel.Appointments" Role="Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MedicalUnits">
+        <PropertyRef Name="MedicalUnitID" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="MedicalUnitID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Appointme__Patie__5070F446">
+    <End Type="HospitalDBContextModel.Patients" Role="Patients" Multiplicity="1" />
+    <End Type="HospitalDBContextModel.Appointments" Role="Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patients">
+        <PropertyRef Name="PatientID" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="PatientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Prescription">
+    <Key>
+      <PropertyRef Name="PrescriptionID" />
+    </Key>
+    <Property Name="PrescriptionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PrescriptionDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Dosage" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FrequencyOfUse" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PatientsName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Medicine" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DoktorName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AdditionalMessage" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

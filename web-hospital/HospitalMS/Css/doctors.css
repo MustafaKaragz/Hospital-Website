@@ -1,0 +1,96 @@
+﻿body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.search-bardoc {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 200px;
+}
+
+
+
+
+    .search-bardoc input[type="text"],
+    .search-bardoc select {
+        z-index: 2;
+        width: 10%;
+        padding: 10px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+
+#department-filter {
+    background-color: #d2042d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.doctor-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    gap: 15px;
+    padding: 20px;
+    margin: auto;
+    max-width: 1100px
+}
+
+.doctor-card {
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin-top: 55px;
+    height:auto;
+}
+
+    .doctor-card img {
+        padding-top:10px;
+        width: 100%;
+        height: auto;
+    }
+
+.doctor-info {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    #doctor-grid {
+        grid-template-columns: repeat(4, 1fr);
+        ütun
+    }
+}
+
+@media (max-width: 1200px) {
+    #doctor-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    #doctor-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    #doctor-grid {
+        grid-template-columns: 1fr;
+    }
+}

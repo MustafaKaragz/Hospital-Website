@@ -1,0 +1,80 @@
+﻿.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px;
+    padding: 10px; /* Reduced padding */
+    margin-top: 180px;
+}
+
+.login-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+    margin: 0;
+}
+
+.hospital-logo-login {
+    width: 80px; /* Reduced logo size */
+    height: 80px; /* Reduced logo size */
+    border-radius: 50%;
+    margin-bottom: 10px; /* Reduced margin */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+form {
+    padding: 10px; /* Reduced padding */
+}
+
+.label12 {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input12 {
+    width: calc(100% - 10px);
+    padding: 8px; /* Reduced padding */
+    margin-bottom: 10px; /* Reduced margin */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px; /* Reduced font size */
+}
+
+.button12 {
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Reduced font size */
+    transition: background-color 0.3s;
+}
+
+    .button12:hover {
+        background-color: #0056b3;
+    }
+
+.options {
+    text-align: center;
+    margin-top: 10px; /* Reduced margin */
+    font-size: 12px; /* Reduced font size */
+}
+
+    .options a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+        .options a:hover {
+            color: #0056b3;
+        }

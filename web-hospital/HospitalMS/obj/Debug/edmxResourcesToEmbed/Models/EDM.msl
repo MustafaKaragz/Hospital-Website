@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HospitalDBContextModelStoreContainer" CdmEntityContainer="HospitalDBContextEntities">
+    <EntitySetMapping Name="Patients">
+      <EntityTypeMapping TypeName="HospitalDBContextModel.Patients">
+        <MappingFragment StoreEntitySet="Patients">
+          <ScalarProperty Name="IsEmailVerified1" ColumnName="IsEmailVerified1" />
+          <ScalarProperty Name="ssn" ColumnName="ssn" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="PatientID" ColumnName="PatientID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Appointments1">
+      <EntityTypeMapping TypeName="HospitalDBContextModel.Appointments">
+        <MappingFragment StoreEntitySet="Appointments">
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="AppointmentTime" ColumnName="AppointmentTime" />
+          <ScalarProperty Name="AppointmentDate" ColumnName="AppointmentDate" />
+          <ScalarProperty Name="MedicalUnitID" ColumnName="MedicalUnitID" />
+          <ScalarProperty Name="PatientID" ColumnName="PatientID" />
+          <ScalarProperty Name="DoctorID" ColumnName="DoctorID" />
+          <ScalarProperty Name="AppointmentID" ColumnName="AppointmentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Doctors1">
+      <EntityTypeMapping TypeName="HospitalDBContextModel.Doctors">
+        <MappingFragment StoreEntitySet="Doctors">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Specialization" ColumnName="Specialization" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DoctorID" ColumnName="DoctorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MedicalUnits1">
+      <EntityTypeMapping TypeName="HospitalDBContextModel.MedicalUnits">
+        <MappingFragment StoreEntitySet="MedicalUnits">
+          <ScalarProperty Name="MedicalUnitName" ColumnName="MedicalUnitName" />
+          <ScalarProperty Name="MedicalUnitID" ColumnName="MedicalUnitID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Prescriptions">
+      <EntityTypeMapping TypeName="HospitalDBContextModel.Prescription">
+        <MappingFragment StoreEntitySet="Prescription">
+          <ScalarProperty Name="AdditionalMessage" ColumnName="AdditionalMessage" />
+          <ScalarProperty Name="DoktorName" ColumnName="DoktorName" />
+          <ScalarProperty Name="Medicine" ColumnName="Medicine" />
+          <ScalarProperty Name="PatientsName" ColumnName="PatientsName" />
+          <ScalarProperty Name="FrequencyOfUse" ColumnName="FrequencyOfUse" />
+          <ScalarProperty Name="Dosage" ColumnName="Dosage" />
+          <ScalarProperty Name="PrescriptionDate" ColumnName="PrescriptionDate" />
+          <ScalarProperty Name="PrescriptionID" ColumnName="PrescriptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

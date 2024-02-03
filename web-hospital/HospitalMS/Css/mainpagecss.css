@@ -1,0 +1,404 @@
+
+
+section#home1 img {
+    width: 102.2%;
+    max-height: 650px;
+    object-fit: cover;
+    margin-left: -20px;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(188, 219, 193);
+    color: #055e75;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+
+
+
+
+#headlines ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 160px;
+}
+
+#headlines li {
+    padding: 15px;
+    text-align: center;
+}
+
+#headlines a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+    #headlines a:hover {
+        color: red;
+        transition: 0.5s;
+    }
+
+
+
+.logo {
+    max-width: 120px;
+    height: auto;
+    margin-right: 50px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+    nav ul li {
+        margin-right: 20px;
+        position: relative;
+    }
+
+    nav ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgb(226, 232, 227);
+        border-radius: 7px;
+    }
+
+
+    nav ul li:hover > ul {
+        display: inherit;
+        color: rgb(2, 3, 0);
+    }
+
+    nav ul ul li {
+        float: none;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+
+
+        nav ul ul li a {
+            padding: 10px 15px;
+            color: #ecf0f1;
+            text-decoration: none;
+            display: block;
+        }
+
+
+
+section {
+    padding: 80px 20px 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+    section h2 {
+        color: #333;
+    }
+
+
+
+
+
+
+
+#services1 {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 450px;
+}
+
+.icon-container1 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.hospital-icon1 {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 2px solid #a00;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 180px;
+    margin-left: 198px;
+    align-items: center;
+}
+
+
+
+.cards-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+
+.card1 {
+    width: 300px;
+    margin-left: 140px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+}
+
+.card-image1 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content1 {
+    background-color: #a00;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+    .card-content1 h3 {
+        margin: 0;
+    }
+
+.summary1 {
+    font-size: 14px;
+    display: block;
+}
+
+.full-message1 {
+    display: none;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.detail-button1 {
+    background-color: white;
+    color: #a00;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+    .detail-button1:hover {
+        background-color: #ddd;
+    }
+
+
+#sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    left: 0;
+    background-color: #2c3e50;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    #sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #sidebar li {
+        padding: 15px;
+        text-align: center;
+    }
+
+    #sidebar a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #ecf0f1;
+        display: block;
+        transition: 0.3s;
+    }
+
+        #sidebar a:hover {
+            color: #86F797;
+        }
+
+    #sidebar .close-btn {
+        position: absolute;
+        top: 0;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+
+footer {
+    background-color: #333;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+
+    footer address {
+        font-style: normal;
+    }
+
+
+
+
+@media screen and (max-width:1920px) {
+
+    .carousel1 {
+        position: relative;
+        width: 470px;
+        height: 40px;
+        float: left;
+        margin-left: 70px;
+        margin-bottom: 500px;
+    }
+
+        .carousel1 img {
+            width: 100%;
+            height: 200px;
+            display: block;
+            opacity: 0;
+            position: absolute;
+            transition: opacity 2s ease-in-out;
+            padding-top: 100px;
+        }
+
+
+
+        .carousel1 .prev1, .carousel1 .next1 {
+            position: absolute;
+            top: 400%;
+            cursor: pointer;
+            transform: translateY(-50%);
+            padding-top: 100px;
+        }
+
+        .carousel1 .prev1 {
+            left: -40px;
+        }
+
+        .carousel1 .next1 {
+            right: -35px;
+        }
+
+
+
+
+
+
+    .grid-container1 {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px;
+        background-color: white;
+        height: 30%;
+        grid-gap: 50px;
+        float: right;
+        margin-bottom: 100px;
+        margin-right: 50px;
+        margin-top: 100px;
+    }
+
+    .grid-item1 {
+        background-color: #760000;
+        border: none;
+        height: 50px;
+        width: 220px;
+        padding: 50px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 5px;
+    }
+
+        .grid-item1:hover {
+            background-color: #5a5e58;
+        }
+
+
+
+
+    .icon-container1 {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .hospital-icon1 {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 2px solid #a00;
+        padding: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        margin-left: 210px;
+        margin-right: 170px;
+        align-items: center;
+    }
+
+
+
+
+
+    .cards-container1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+
+    .card1 {
+        width: 220px;
+        margin: 60px;
+        margin-left: 150px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        overflow: hidden;
+        float: left;
+    }
+
+    .card-image1 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+    #headlines ul {
+        list-style: none;
+        padding: 0;
+        margin-right:85px;
+      
+    }
+}

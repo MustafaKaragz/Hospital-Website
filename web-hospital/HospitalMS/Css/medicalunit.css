@@ -1,0 +1,57 @@
+﻿.medicalbody {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 210px;
+    margin-top: 200px;
+}
+
+#main-contentmedical {
+    text-align: center;
+}
+
+#medical-units-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #004d60;
+    margin-bottom: 20px;
+}
+
+
+#medical-units-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.medical-unit {
+    margin-top: 80px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+    .medical-unit:hover {
+        transform: scale(1.05);
+    }
+
+    .medical-unit img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        
+    }

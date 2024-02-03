@@ -1,0 +1,62 @@
+﻿@model HospitalMS.Models.LoginView
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="login-box">
+    
+        <h2 class="login-header" >Patient Login</h2>
+    
+    
+        <img src="~/images/logo.png" Hospital Logo" class="hospital-logo-login">
+    
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="label12">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "input12" } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+
+        </div>
+
+        <div class="label12">
+            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+            <
+            @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "input12" } })
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+        </div>
+
+        <div class="button12">
+            <input type="submit" value="Login" />
+        </div>
+
+    }
+</div>
+
+<div class="options">
+    @Html.ActionLink("Signup", "Signup")
+</div>
+
+
+@if (Request.IsAuthenticated)
+{
+    if (User.IsInRole("Doctor"))
+    {
+        <p>Welcome, Doctor!</p>
+    }
+    else if (User.IsInRole("Patient"))
+    {
+        <p>Welcome, Patient!</p>
+    }
+}

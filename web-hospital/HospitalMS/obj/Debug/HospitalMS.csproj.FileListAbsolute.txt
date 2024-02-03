@@ -1,0 +1,440 @@
+C:\Users\pc\source\repos\HospitalMS\bin\HospitalMS.dll.config
+C:\Users\pc\source\repos\HospitalMS\bin\HospitalMS.dll
+C:\Users\pc\source\repos\HospitalMS\bin\HospitalMS.pdb
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\csc.exe
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\csc.exe.config
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\csc.rsp
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\csi.exe
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\csi.exe.config
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\csi.rsp
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.AppContext.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Console.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Net.Http.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\vbc.exe
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\vbc.exe.config
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\vbc.rsp
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\pc\source\repos\HospitalMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pc\source\repos\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pc\source\repos\HospitalMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Helpers.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Mvc.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Razor.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Webpages.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Webpages.Razor.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Razor.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Webpages.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Webpages.Razor.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Helpers.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Web.Mvc.xml
+C:\Users\pc\source\repos\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pc\source\repos\HospitalMS\obj\Debug\HospitalMS.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\HospitalMS\obj\Debug\HospitalMS.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\HospitalMS\obj\Debug\HospitalMS.csproj.CopyComplete
+C:\Users\pc\source\repos\HospitalMS\obj\Debug\HospitalMS.dll
+C:\Users\pc\source\repos\HospitalMS\obj\Debug\HospitalMS.pdb
+C:\Users\pc\source\repos\HospitalMS\bin\EntityFramework.dll
+C:\Users\pc\source\repos\HospitalMS\bin\EntityFramework.SqlServer.dll
+C:\Users\pc\source\repos\HospitalMS\bin\EntityFramework.xml
+C:\Users\pc\source\repos\HospitalMS\bin\EntityFramework.SqlServer.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Buffers.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.IO.Pipelines.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Memory.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Numerics.Vectors.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\pc\source\repos\HospitalMS\bin\System.Buffers.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.IO.Pipelines.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Memory.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Numerics.Vectors.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pc\source\repos\HospitalMS\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\HospitalMS.dll.config
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\HospitalMS.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\HospitalMS.pdb
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\csc.exe
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\csc.exe.config
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\csc.rsp
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\csi.exe
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\csi.exe.config
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\csi.rsp
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.AppContext.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Console.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Net.Http.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\vbc.exe
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\vbc.exe.config
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\vbc.rsp
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\EntityFramework.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Buffers.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.IO.Pipelines.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Memory.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Numerics.Vectors.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Helpers.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Mvc.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Razor.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Webpages.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Webpages.Razor.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\EntityFramework.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Buffers.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.IO.Pipelines.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Memory.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Numerics.Vectors.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Razor.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Webpages.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Webpages.Razor.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Helpers.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\System.Web.Mvc.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\obj\Debug\HospitalMS.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\obj\Debug\HospitalMS.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\obj\Debug\HospitalMS.csproj.CopyComplete
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\obj\Debug\HospitalMS.dll
+C:\Users\bugra\Desktop\AQ PROJESİ\HospitalMS\obj\Debug\HospitalMS.pdb
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\HospitalMS.dll.config
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\HospitalMS.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\HospitalMS.pdb
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\csc.exe
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\csc.exe.config
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\csc.rsp
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\csi.exe
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\csi.exe.config
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\csi.rsp
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.AppContext.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Console.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Net.Http.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\vbc.exe
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\vbc.exe.config
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\vbc.rsp
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\EntityFramework.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\EntityFramework.SqlServer.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Buffers.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.IO.Pipelines.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Memory.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Numerics.Vectors.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Helpers.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Mvc.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Razor.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Webpages.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Webpages.Razor.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\EntityFramework.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\EntityFramework.SqlServer.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Buffers.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.IO.Pipelines.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Memory.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Numerics.Vectors.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Razor.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Webpages.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Webpages.Razor.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Helpers.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\System.Web.Mvc.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\obj\Debug\HospitalMS.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\obj\Debug\HospitalMS.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\obj\Debug\HospitalMS.csproj.CopyComplete
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\obj\Debug\HospitalMS.dll
+C:\Users\bugra\Desktop\Project_Task2\HospitalMS\obj\Debug\HospitalMS.pdb
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\HospitalMS.dll.config
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\HospitalMS.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\HospitalMS.pdb
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\csc.exe
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\csc.exe.config
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\csc.rsp
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\csi.exe
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\csi.exe.config
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\csi.rsp
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.AppContext.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Console.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Net.Http.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\vbc.exe
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\vbc.exe.config
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\vbc.rsp
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\EntityFramework.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\EntityFramework.SqlServer.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Buffers.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.IO.Pipelines.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Memory.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Numerics.Vectors.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Helpers.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Mvc.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Razor.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Webpages.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Webpages.Razor.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\EntityFramework.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\EntityFramework.SqlServer.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Buffers.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.IO.Pipelines.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Memory.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Numerics.Vectors.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Razor.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Webpages.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Webpages.Razor.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Helpers.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\System.Web.Mvc.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\obj\Debug\HospitalMS.csproj.AssemblyReference.cache
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\obj\Debug\HospitalMS.csproj.CoreCompileInputs.cache
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\obj\Debug\HospitalMS.csproj.CopyComplete
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\obj\Debug\HospitalMS.dll
+C:\Users\Casperr.Mustafa\Desktop\web\Project_Task2\HospitalMS\obj\Debug\HospitalMS.pdb
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\HospitalMS.dll.config
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\HospitalMS.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\HospitalMS.pdb
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\csc.exe
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\csc.exe.config
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\csc.rsp
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\csi.exe
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\csi.exe.config
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\csi.rsp
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.AppContext.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Console.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.IO.Compression.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Net.Http.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.ValueTuple.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\vbc.exe
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\vbc.exe.config
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\vbc.rsp
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\EntityFramework.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\EntityFramework.SqlServer.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Buffers.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.IO.Pipelines.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Memory.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Numerics.Vectors.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Helpers.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Mvc.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Razor.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Webpages.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Webpages.Razor.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\EntityFramework.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\EntityFramework.SqlServer.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Buffers.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.IO.Pipelines.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Memory.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Numerics.Vectors.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Razor.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Webpages.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Webpages.Razor.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Helpers.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\System.Web.Mvc.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\obj\Debug\HospitalMS.csproj.AssemblyReference.cache
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\obj\Debug\HospitalMS.csproj.CoreCompileInputs.cache
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\obj\Debug\HospitalMS.csproj.CopyComplete
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\obj\Debug\HospitalMS.dll
+C:\Users\Casperr.Mustafa\Desktop\web-hospital\HospitalMS\obj\Debug\HospitalMS.pdb
